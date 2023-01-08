@@ -28,11 +28,9 @@ public class ChessMatch {
 		return (ChessPiece) capturedPiece;
 	}
 	
-	private Piece makeMove(Position source, Position target) {
-		 Piece p = board.removePiece(source); 
-		 Piece capturedPiece = board.removePiece(target); 
-		 board.placePiece(p, target);
-		 return capturedPiece; 
+	private Piece makeMove() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	private void validadeSourcePosition(Position position) {
 		if (!board.thereIsAPiece(position)) {
