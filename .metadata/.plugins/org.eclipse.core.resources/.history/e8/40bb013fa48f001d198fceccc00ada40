@@ -1,5 +1,6 @@
 package app;
- 
+
+import boardgame.*;
 import chess.*;
 
 public class Program {
